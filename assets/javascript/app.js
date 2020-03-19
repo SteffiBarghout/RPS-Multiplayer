@@ -1,22 +1,13 @@
-//Array of Computer's possible choices.
+//* Only two users can play at the same time.-->
+$.noConflict();
+//Both players pick either `rock`, `paper` or `scissors`. After the players make their selection, the game will tell them whether a tie occurred or if one player defeated the other. 
+//Array of Player 1's possible choices.
 var computerChoices = ["r", "p", "s"];
 
-//Array of User's possible choices.
-var userGuess = ["r", "p", "s"];
+//Array of Player 2's possible choices.
+var userGuess = ["r", "p", "s"];​​
 
-//* Only two users can play at the same time.-->
-
-//Both players pick either `rock`, `paper` or `scissors`. After the players make their selection, the game will tell them whether a tie occurred or if one player defeated the other. 
-
-​​
 //* The game will track each player's wins and losses. -->
-​
-//* Throw some chat functionality in there! No online multiplayer game is complete without having to endure endless taunts and insults from your jerk opponent.-->
-​
-//* Styling and theme are completely up to you. Get Creative!-->
-​
-//* Deploy your assignment to Github Pages. -->
-
 //Create variables to hold the numbers of wins, losses, ties.
 var wins = 0;
 var losses = 0;
